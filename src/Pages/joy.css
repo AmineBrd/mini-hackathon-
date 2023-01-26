@@ -1,0 +1,23 @@
+/*
+.breath{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}*/
+
+.image1{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+  
+}
+
+
+img{
+    width: 70%;
+    margin-left: 7rem;
+    height: auto;
+}

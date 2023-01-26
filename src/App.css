@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  scroll-behavior: smooth;
+}
+#root {
+  max-width: auto;
+  margin: 0px;
+  padding: 0rem;
+  text-align: center;
+}
+body{
+  /*background-color: #e5f9fc;*/
+  background-color:#F8FAFB
+}
+li{
+  font-size: 36px;
+  list-style: none;
+  color:#FBFBFB;
+  padding-right: 32px;
+}
+.List{
+  width: 100%;
+  display:inline-block;
+  background-color: #394461;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+li.right:hover{
+  color:#6ecfb5;
+  cursor:pointer;
+  transition: 0.7s ease-out;
+  transform:scale(1.4);
+}
+li.right{
+  direction: ltr;
+  float: right;
+}
+
+li.left{
+  direction: ltr;
+  float: left;
+  padding-left: 16px;
+  color: #F86F6F;
+}
+li.left:hover{
+  color: #F86F6F;
+  cursor: pointer;
+
+}
+h1.decouvrir{
+  padding-top: 60px;
+  font-family: "Luckiest Guy",cursive;
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+h1.top{
+  padding-top: 60px;
+  font-family: "Luckiest Guy",cursive;
+  font-size: 64px;
+}
+h1.algerie{
+  font-family: 'Londrina Solid', cursive;
+  padding-top: 20px;
+  font-size: 64px;
+}
+.itemsSetup{
+  width: 25%;
+  height:250px;
+  text-align: center;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: solid 3px white;
+}
+.itemsSetup:hover{
+background: rgba(255, 255, 255, 0.40);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3px);
+-webkit-backdrop-filter: blur(3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+img.girl{
+    filter: blur(0.7px);
+    border-radius: 17px;
+    border: solid 1px black;
+}
+img.cap:hover{
+background: rgba(255, 255, 255, 0.40);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(400px);
+-webkit-backdrop-filter: blur(3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+p.def{
+  padding-left: 10%;
+  font-family: "Open Sans",cursive;
+  font-size: 16px;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+p.caption{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color:black ;
+  padding-top: 1rem;
+}
+.c-right{
+  padding-top: 20px;
+  width: 50%;
+  justify-items: center;
+}
+iframe{
+  width: 75%;
+  height: 400px;
+  padding-top: 2rem;
+  border: none;
+}
+a{
+  text-decoration: none;
+}
+li.top{
+  font-size: 54px;
+  font-family: "Long Cang",cursive ;
+  padding-left: 75%; 
+  color: black;
+}
+.c-left{
+  padding-top: 20px;
+  width: 50%;
+  justify-items: center;
+  margin-left: 40px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.car {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  background-color: gold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.car:hover{
+  box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2);
+}
+p.cards{
+  height: 200px;
+  font-size: 48px;
+  font-family: "Josefin Sans",cursive;
+  text-align: center;
+  justify-content: center;
+}
+.container-card{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+img.card{
+  width: 100%;
+  height:250px;
+}
+p.cards1{
+  height: 200px;
+  font-size: 48px;
+  font-family: "Josefin Sans",cursive;
+  text-align: center;
+  justify-content: center;
+  background-color: #EBF4F5;
+  padding-top: 30%;
+  
+}
+p.cards2{
+  height: 200px;
+  font-size: 48px;
+  font-family: "Josefin Sans",cursive;
+  text-align: center;
+  justify-content: center;
+  background-color: #F5EDE7;
+  padding-top: 30%;
+}
+p.cards3{
+  height: 200px;
+  font-size: 48px;
+  font-family: "Josefin Sans",cursive;
+  text-align: center;
+  justify-content: center;
+  background-color: #DCEAFF;
+  padding-top: 30%;
+}
+p.cards4{
+  height: 200px;
+  font-size: 48px;
+  font-family: "Josefin Sans",cursive;
+  text-align: center;
+  justify-content: center;
+  background-color: #FDF7F4;
+  padding-top: 30%;
+}
+footer{
+  text-align: left;
+}
+textarea{
+  margin-top: 50px;
+  font-size: 32px;
+  width:50%;
+  height:350px;
+  background-color: #394461;
+  color: #B1CDD1;
+  resize: none;
+}
+button.alert{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 50%;
+  height:3rem;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: #ADC8CC;
+  border:none;
+  font-size: 32px;
+}
+button.alert:hover{
+  border: solid 1px black;
+  cursor: pointer;
+}
